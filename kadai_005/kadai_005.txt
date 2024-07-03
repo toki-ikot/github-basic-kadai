@@ -1,0 +1,25 @@
+PS C:\Users\saber> cd C:\Users\saber\OneDrive\デスクトップ\git_challenge
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/saber/OneDrive/デスクトップ/git_challenge/.git/
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git add .
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git commit -m "hello_world.txtを追加”
+[main (root-commit) bd9f8cd] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt.txt
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git add .
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git commit -m "日本語訳を追記”
+[main 1dd3de7] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\saber\OneDrive\デスクトップ\git_challenge> git log
+commit 1dd3de7993083a21886c1025e357b5905991e68d (HEAD -> main)
+Author: toki-ikot <krwork1101@gmail.com>
+Date:   Wed Jul 3 23:19:48 2024 +0900
+
+    日本語訳を追記
+
+commit bd9f8cd087b2e72d26d33c048fe65bafebfd5db1
+Author: toki-ikot <krwork1101@gmail.com>
+Date:   Wed Jul 3 23:18:17 2024 +0900
+
+    hello_world.txtを追加
+:
